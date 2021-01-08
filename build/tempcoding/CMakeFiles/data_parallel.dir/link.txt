@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_parallel.a  CMakeFiles/data_parallel.dir/data_parallel.cc.o
+/usr/bin/ranlib libdata_parallel.a

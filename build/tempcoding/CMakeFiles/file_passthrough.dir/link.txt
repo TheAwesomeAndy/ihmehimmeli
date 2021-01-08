@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfile_passthrough.a  CMakeFiles/file_passthrough.dir/file_passthrough_external.cc.o
+/usr/bin/ranlib libfile_passthrough.a

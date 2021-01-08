@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtempcoder.a  CMakeFiles/tempcoder.dir/tempcoder.cc.o
+/usr/bin/ranlib libtempcoder.a

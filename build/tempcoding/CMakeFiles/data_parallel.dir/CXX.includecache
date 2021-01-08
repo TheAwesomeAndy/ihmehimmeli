@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tempcoding/data_parallel.h
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+algorithm
+-
+atomic
+-
+condition_variable
+-
+mutex
+-
+thread
+-
+vector
+-
+
+/home/andy/Documents/GitHub/ihmehimmeli/tempcoding/data_parallel.cc
+tempcoding/data_parallel.h
+/home/andy/Documents/GitHub/ihmehimmeli/tempcoding/tempcoding/data_parallel.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspiking_problem.a  CMakeFiles/spiking_problem.dir/spiking_problem.cc.o
+/usr/bin/ranlib libspiking_problem.a

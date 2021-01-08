@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tempcoding/lambertw.h
+
+/home/andy/Documents/GitHub/ihmehimmeli/tempcoding/lambertw.cc
+tempcoding/lambertw.h
+/home/andy/Documents/GitHub/ihmehimmeli/tempcoding/tempcoding/lambertw.h
+cmath
+-
+cstdlib
+-
+

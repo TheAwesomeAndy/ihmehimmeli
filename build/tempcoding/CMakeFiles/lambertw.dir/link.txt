@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblambertw.a  CMakeFiles/lambertw.dir/lambertw.cc.o
+/usr/bin/ranlib liblambertw.a

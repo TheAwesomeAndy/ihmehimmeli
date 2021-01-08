@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgradient_landscape_helper.a  CMakeFiles/gradient_landscape_helper.dir/gradient_landscape_helper.cc.o
+/usr/bin/ranlib libgradient_landscape_helper.a
