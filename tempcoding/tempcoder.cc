@@ -232,7 +232,7 @@ double Tempcoder::ActivateNeuronAlpha(
     const double lambert_arg = -decay_params.rate() * fire_threshold / *A *
                                exp(decay_params.rate() * b_over_a);
     // Minimum argument for the main branch of the Lambert W function.
-    constexpr double kMinLambertArg = -1.0 / M_E;
+    constexpr double kMinLambertArg = -1.0 / M_E+ 1e-8;
     // Maximum argument for which gsl_sf_lambert_W0 produces a valid result.
     constexpr double kMaxLambertArg = 1.7976131e+308;
     if (lambert_arg >= kMinLambertArg && lambert_arg <= kMaxLambertArg) {
