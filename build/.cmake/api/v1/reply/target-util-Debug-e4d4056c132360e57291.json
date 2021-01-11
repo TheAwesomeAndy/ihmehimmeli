@@ -1,0 +1,114 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "tempcoding/libutil.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"tempcoding/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "absl_spinlock_wait::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_severity::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_base::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_throw_delegate::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_int128::@35227d1743c50db2a020"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strings_internal::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strings::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_civil_time::@5957f09260692b46a445"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_time::@5957f09260692b46a445"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_time_zone::@5957f09260692b46a445"
+		}
+	],
+	"id" : "util::@1a2b65fb1b1fb30a90b5",
+	"name" : "util",
+	"nameOnDisk" : "libutil.a",
+	"paths" : 
+	{
+		"build" : "tempcoding",
+		"source" : "tempcoding"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "tempcoding/util.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
